@@ -21,6 +21,6 @@
 "license": "Public",
 "homepage": "git@github.com:propcom/fe-countdown.git",
 	"install": {
-		"countdown": "fuel/app/views/",
+		"countdown": "fuel/app/views/"
 	}
 }
