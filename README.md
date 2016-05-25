@@ -1,6 +1,8 @@
 ## FE Countdown
 
-Download this repo and drop the countdown folder into `fuel/apps/views/`
+Download this repo and drop the countdown folder into:
+
+`fuel/apps/views/`
 
 Include the countdown.php file where you would like it to appear within your template
 
