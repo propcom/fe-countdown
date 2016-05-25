@@ -7,7 +7,7 @@
 "main": "./countdown",
 "repository": {
 	"type": "git",
-	"url": "https://github.com/propcom/fe-countdown.git"
+	"url": "git@github.com:propcom/fe-countdown.git"
 },
 "keywords": [
 	"clock",
@@ -19,7 +19,7 @@
 	"propcom"
 ],
 "license": "Public",
-"homepage": "https://github.com/propcom/fe-countdown.git",
+"homepage": "git@github.com:propcom/fe-countdown.git",
 	"install": {
 		"countdown": "fuel/app/views/",
 	}
