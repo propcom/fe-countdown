@@ -1,4 +1,4 @@
-<?php $days = ceil((strtotime("7/10/2016") - time())/(60*60*24)); ?>
+<?php $days = ceil((strtotime("6/10/2016") - time())/(60*60*24)); ?>
 	<?php if($days > 0):?>
 
 <?= render('countdown/countdown-style'); ?>
