@@ -1,0 +1,30 @@
+{
+"name": "fe-countdown",
+"authors": [
+	"Callam Williams"
+],
+"description": "Countdown system to work with fuel sites",
+"main": "./countdown",
+"repository": {
+	"type": "git",
+	"url": "https://github.com/propcom/fe-countdown.git"
+},
+"keywords": [
+	"clock",
+	"countdown",
+	"fe-countdown",
+	"Propeller",
+	"propcomm",
+	"propeller",
+	"propcom"
+],
+"ignore": [
+    ".git",
+    ".DS_Store"
+],
+"license": "Public",
+"homepage": "https://github.com/propcom/fe-countdown.git",
+	"install": {
+		"countdown": "fuel/app/views/",
+	}
+}
