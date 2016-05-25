@@ -3,8 +3,13 @@
 "authors": [
 	"Callam Williams"
 ],
+"version": "0.0.1",
 "description": "Countdown system to work with fuel sites",
-"main": "./countdown",
+"main": [
+	"./countdown/countdown-js.php",
+	"./countdown/countdown-style.php",
+	"./countdown/countdown.php"
+	],
 "repository": {
 	"type": "git",
 	"url": "git@github.com:propcom/fe-countdown.git"
@@ -18,9 +23,14 @@
 	"propeller",
 	"propcom"
 ],
+"ignore": [
+   "**/.*"
+],
 "license": "Public",
 "homepage": "git@github.com:propcom/fe-countdown.git",
 	"install": {
-		"countdown": "fuel/app/views/"
+		"./countdown/countdown-js.php": "fuel/app/views/countdown",
+		"./countdown/countdown-style.php": "fuel/app/views/countdown",
+		"./countdown/countdown.php": "fuel/app/views/countdown"
 	}
 }
