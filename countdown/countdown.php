@@ -9,7 +9,7 @@
 	        currentDate = new Date(),
 	        futureDate = new Date(currentDate.getFullYear(), month-1, day, hour),
 	        diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
-	        clock = $('.countdown').FlipClock(diff, {
+	        clock = $('.countdown__wrap').FlipClock(diff, {
 	            clockFace: 'DailyCounter',
 	            countdown: true,
 	            showSeconds: true
@@ -21,9 +21,9 @@
 		});
 	</script>
 
-	<div class="countdown__wrap">
+	<div class="countdown">
 		<h1>Countdown to Euro 2016</h1>
-		<div class="countdown"></div>
+		<div class="countdown__wrap"></div>
 	</div>
 
 <?php endif; ?>

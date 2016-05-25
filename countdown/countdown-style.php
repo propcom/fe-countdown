@@ -434,7 +434,7 @@
 
     /*** CUSTOM STYLES ***/
 
-    .countdown__wrap{
+    .countdown{
       position: relative;
       width:100%;
       max-width:380px;
@@ -450,12 +450,12 @@
     }
 
     @media (max-width: 360px) {
-        .countdown__wrap{
+        .countdown{
             max-width:99%;
         }
     }
 
-    .countdown__wrap:after{
+    .countdown:after{
         content:"";
         display:block;
         margin-left:10px;
@@ -467,12 +467,12 @@
     }
 
     @media (max-width: 360px) {
-        .countdown__wrap:after{
+        .countdown:after{
             display:none;
         }
     }
 
-    .countdown{
+    .countdown__wrap{
         position: absolute;
         bottom:2px;
         right:10px;
@@ -482,7 +482,7 @@
     }
 
     @media (max-width: 360px) {
-        .countdown{
+        .countdown__wrap{
             position: relative;
             margin:0 auto;
             top:2px;
