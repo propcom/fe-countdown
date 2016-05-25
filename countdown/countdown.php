@@ -1,11 +1,12 @@
 <?php
 	$day = 10;
-  $month = 06;
-   $year = 2016;
-   $time = 21;
+	$month = 06;
+	$year = 2016;
+	$time = 21;
+	$enddate = 26;
 ?>
 
-<?php $days = ceil((strtotime("$month/$day/$year") - time())/(60*60*24)); ?>
+<?php $days = ceil((strtotime("$month/$enddate/$year") - time())/(60*60*24)); ?>
 	<?php if($days > 0):?>
 
 <?= render('countdown/countdown-style'); ?>
@@ -24,7 +25,7 @@
 	    };
 		defer(function () {
 				// mm/dd/time
-		        homecountdown($month, $day, $time);
+		        homecountdown(<?= $month ?>, <?= $day ?>, <?= $time ?>);
 		});
 	</script>
 
